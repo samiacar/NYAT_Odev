@@ -1,0 +1,14 @@
+-- Table: public.Kullanici
+
+-- DROP TABLE public."Kullanici";
+
+CREATE TABLE IF NOT EXISTS public."Kullanici"
+(
+    "KullaniciAdi1" character varying COLLATE pg_catalog."default" NOT NULL,
+    sifre1 character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public."Kullanici"
+    OWNER to postgres;
